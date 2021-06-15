@@ -1,6 +1,6 @@
 import { IProduct } from './IProduct';
 
-export default abstract class Creator {
+export abstract class Creator {
   public abstract createProduct(): IProduct;
 
   public someOperation(): string {
